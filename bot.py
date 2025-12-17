@@ -17,7 +17,7 @@ SCOPES = [
 ]
 
 creds = Credentials.from_service_account_file(
-    "bot/clients-481219-3c073036e983.json",
+   "clients-481219-3c073036e983.json",
     scopes=SCOPES
 )
 
@@ -238,4 +238,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
